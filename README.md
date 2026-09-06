@@ -76,3 +76,7 @@ JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64 ./gradlew testDebugUnitTest lintRel
 `XapkWriterTest` builds real archives on the JVM and reads them back — the
 Android-specific pieces (launcher icon, shared-storage location) are injected
 into `XapkWriter` so the archive format itself is testable without a device.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
