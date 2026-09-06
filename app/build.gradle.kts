@@ -21,11 +21,11 @@ val keystorePasswordFile = file(
 val releaseSigningAvailable = keystoreFile.isFile && keystorePasswordFile.isFile
 
 android {
-    namespace = "com.mictech.apppackager"
+    namespace = "com.maryumcenter.apppackager"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.mictech.apppackager"
+        applicationId = "com.maryumcenter.apppackager"
         minSdk = 26
         targetSdk = 36
         versionCode = 1

@@ -1,12 +1,12 @@
-package com.mictech.apppackager.ui
+package com.maryumcenter.apppackager.ui
 
 import android.app.Application
 import android.net.Uri
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.mictech.apppackager.data.AppRepository
-import com.mictech.apppackager.data.InstalledApp
-import com.mictech.apppackager.data.Prefs
+import com.maryumcenter.apppackager.data.AppRepository
+import com.maryumcenter.apppackager.data.InstalledApp
+import com.maryumcenter.apppackager.data.Prefs
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

@@ -1,4 +1,4 @@
-package com.mictech.apppackager.ui
+package com.maryumcenter.apppackager.ui
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -51,10 +51,10 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.mictech.apppackager.backup.BackupProgress
-import com.mictech.apppackager.backup.BackupState
-import com.mictech.apppackager.data.InstalledApp
-import com.mictech.apppackager.data.formatSize
+import com.maryumcenter.apppackager.backup.BackupProgress
+import com.maryumcenter.apppackager.backup.BackupState
+import com.maryumcenter.apppackager.data.InstalledApp
+import com.maryumcenter.apppackager.data.formatSize
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

@@ -1,4 +1,4 @@
-package com.mictech.apppackager.backup
+package com.maryumcenter.apppackager.backup
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -7,7 +7,7 @@ import android.graphics.drawable.BitmapDrawable
 import android.os.Build
 import android.os.Environment
 import androidx.core.graphics.createBitmap
-import com.mictech.apppackager.data.InstalledApp
+import com.maryumcenter.apppackager.data.InstalledApp
 import kotlinx.coroutines.ensureActive
 import org.json.JSONArray
 import org.json.JSONObject

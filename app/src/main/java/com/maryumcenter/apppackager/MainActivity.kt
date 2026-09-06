@@ -1,4 +1,4 @@
-package com.mictech.apppackager
+package com.maryumcenter.apppackager
 
 import android.Manifest
 import android.content.Intent
@@ -19,10 +19,10 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.core.content.ContextCompat
 import androidx.core.net.toUri
-import com.mictech.apppackager.backup.BackupService
-import com.mictech.apppackager.ui.AppListScreen
-import com.mictech.apppackager.ui.AppListViewModel
-import com.mictech.apppackager.ui.AppPackagerTheme
+import com.maryumcenter.apppackager.backup.BackupService
+import com.maryumcenter.apppackager.ui.AppListScreen
+import com.maryumcenter.apppackager.ui.AppListViewModel
+import com.maryumcenter.apppackager.ui.AppPackagerTheme
 
 class MainActivity : ComponentActivity() {
 

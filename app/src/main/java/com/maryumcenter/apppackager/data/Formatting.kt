@@ -1,4 +1,4 @@
-package com.mictech.apppackager.data
+package com.maryumcenter.apppackager.data
 
 import java.util.Locale
 

@@ -1,4 +1,4 @@
-package com.mictech.apppackager.ui
+package com.maryumcenter.apppackager.ui
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -26,7 +26,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.mictech.apppackager.backup.BackupOutcome
+import com.maryumcenter.apppackager.backup.BackupOutcome
 
 @Composable
 fun OptionsSheet(

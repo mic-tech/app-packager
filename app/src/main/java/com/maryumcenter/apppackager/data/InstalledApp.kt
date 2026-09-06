@@ -1,4 +1,4 @@
-package com.mictech.apppackager.data
+package com.maryumcenter.apppackager.data
 
 /**
  * One installed package, flattened to just what a backup needs.

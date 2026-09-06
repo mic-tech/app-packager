@@ -1,7 +1,7 @@
-package com.mictech.apppackager.backup
+package com.maryumcenter.apppackager.backup
 
-import com.mictech.apppackager.data.InstalledApp
-import com.mictech.apppackager.data.SplitApk
+import com.maryumcenter.apppackager.data.InstalledApp
+import com.maryumcenter.apppackager.data.SplitApk
 import kotlinx.coroutines.runBlocking
 import org.json.JSONObject
 import org.junit.Assert.assertEquals

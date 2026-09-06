@@ -1,4 +1,4 @@
-package com.mictech.apppackager.backup
+package com.maryumcenter.apppackager.backup
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -14,10 +14,10 @@ import android.os.IBinder
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.documentfile.provider.DocumentFile
-import com.mictech.apppackager.MainActivity
-import com.mictech.apppackager.R
-import com.mictech.apppackager.data.AppRepository
-import com.mictech.apppackager.data.formatSize
+import com.maryumcenter.apppackager.MainActivity
+import com.maryumcenter.apppackager.R
+import com.maryumcenter.apppackager.data.AppRepository
+import com.maryumcenter.apppackager.data.formatSize
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -256,7 +256,7 @@ class BackupService : Service() {
     }
 
     companion object {
-        private const val ACTION_CANCEL = "com.mictech.apppackager.CANCEL"
+        private const val ACTION_CANCEL = "com.maryumcenter.apppackager.CANCEL"
         private const val EXTRA_PACKAGES = "packages"
         private const val EXTRA_DESTINATION = "destination"
         private const val EXTRA_INCLUDE_OBB = "include_obb"
