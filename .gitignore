@@ -1,5 +1,6 @@
 # Gradle / Android build output
 build/
+*.apk
 .gradle/
 /captures
 .externalNativeBuild
