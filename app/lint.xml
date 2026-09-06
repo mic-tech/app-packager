@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Lint suggests merging mipmap-anydpi-v26 into a plain mipmap-anydpi
+         because minSdk is already 26. AAPT2 silently skips that folder — the
+         icon resources then fail to link — so the version qualifier stays. -->
+    <issue id="ObsoleteSdkInt">
+        <ignore path="src/main/res/mipmap-anydpi-v26" />
+    </issue>
+    <!-- Version-currency nags: upgrades are a deliberate, separate decision. -->
+    <issue id="AndroidGradlePluginVersion" severity="ignore" />
+    <issue id="GradleDependency" severity="ignore" />
+    <issue id="NewerVersionAvailable" severity="ignore" />
+</lint>

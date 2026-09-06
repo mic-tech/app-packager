@@ -1,0 +1,14 @@
+# Gradle / Android build output
+build/
+.gradle/
+/captures
+.externalNativeBuild
+.cxx
+
+# Machine-specific: SDK location lives here, and it differs per machine.
+local.properties
+
+# IDE
+*.iml
+/.idea
+.DS_Store
